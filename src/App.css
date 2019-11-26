@@ -1,0 +1,123 @@
+
+body{
+  background-color:  #505050;
+}
+
+.sidenav_left {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 70px;
+}
+
+.menu {
+  height : 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: fixed;
+  z-index: 1;
+  top: calc(100% - 30%);
+  right: -23px;
+  cursor: pointer;
+  background-color:tomato;
+  transition: 0.4s;
+  overflow-x: hidden;
+}
+
+.sidenav_right {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 70px;
+}
+
+.firstcard{
+  width:95%;
+  margin:auto;
+  background-color:#424242;
+  height: 300px;
+  border-radius:5px;
+}
+
+.secondcard{
+  width:95%;
+  margin:auto;
+  background-color:#424242;
+  height: 250px;
+  border-radius:5px;
+}
+
+.thirdcard{
+  width:95%;
+  margin:auto;
+  background-color:#424242;
+  height: 250px;
+  border-radius:5px;
+}
+
+.header{
+  height:70px;
+  background-color: black;
+}
+
+.demo{
+  width : 235px !important;
+  padding: 15px 0px 15px 15px;
+}
+
+.sidenav_left a {
+  width : 235px !important;
+  padding: 8px 0px 8px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.sidenav_left a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav_right a {
+  width : 235px !important;
+  padding: 8px 0px 8px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+.sidenav_right a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
